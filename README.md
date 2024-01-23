@@ -1,3 +1,9 @@
+# Ecommerce API
+
+## Setup
+1. Clone the repository.
+2. Create a MongoDB database and obtain the connection string.
+3. Create a .env file in the root directory with the following content:
 4. Install dependencies: `npm install`
 5. Start the server: `npm start`
 
