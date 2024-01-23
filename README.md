@@ -18,3 +18,24 @@
 
 ## Example
 - Add product:
+  ```
+  curl -X POST -H
+  "Content-Type: application/json" -d
+  '{"name": "laptop", "quantity": 10}'
+  http://localhost:3000/products/create
+  ```
+- List products:
+  ```
+  curl http://localhost:5000/products
+  ```
+- Delete product:
+  ```
+  curl -X DELETE http://localhost:5000/products/1
+  ```
+- Update product quantity:
+  ```
+  curl -X POST http://localhost:5000/products/1/update_quantity/?number=5
+  ```
+```
+
+This basic implementation should help you get started with an Ecommerce API using Node.js and MongoDB.
